@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.texto-largo{
+    font-size: 80px;
+    font-variant: small-caps;
+    color: black;
+}
+.texto-mediano{
+    font-size: 35px;
+    font-variant: small-caps;
+    text-align: center;
+    color: black;
+}
+.contenedor{
+    width: 90%;
+    padding: 80px 0;
+    margin: auto;
+    text-align: center;
+}
+nav ul{
+    background-color: black;
+    list-style-type: none;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav li{
+    float:left;
+}
+nav li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 18px;
+    display: inline-block;
+
+}
+nav li a:hover{
+    color: rgb(46, 166, 221);
+    background-color: rgb(255, 249, 249);
+}
+.hero{
+    background-image:linear-gradient(rgba(53, 187, 211, 0.418),
+                rgba(176, 206, 241, 0.712)), url(https://media.gq.com.tw/photos/636ccac1a8c6b15384f24ed3/16:9/w_4991,h_2807,c_limit/adidas%20Originals%202022%20FORUM%20%E7%A7%8B%E5%86%AC%E7%B3%BB%E5%88%97_%E9%9E%8B%E6%AC%BE%E5%BD%A2%E8%B1%A1%E7%85%A7-1.JPG);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.text-hero{
+    color: white;
+    text-align: center;
+    padding: 250px;
+}
+.info{
+    background-color: rgba(48, 175, 207, 0.808);
+    color: white;
+}
+.texto-info{
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 20px;
+    font-variant: small-caps;
+    color: black;
+}
+.cont-card{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;    
+    justify-content: space-evenly;
+}
+.card{
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 3px 0;
+    transform: translate(1);
+    transition: transform 0.6s;
+    border-radius: 5px;
+    background-color: rgb(37, 214, 238);
+}
+.card:hover{
+    box-shadow: 0 0 10px 0;
+    transform: scale(1.15);
+}
+.card i{
+    color: yellow;
+    font-size: 35px;
+    margin: 20px;
+}
+.card p{
+    margin: 18px;
+    text-align: justify;
+}
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#Galeria{
+    background-color: gainsboro;
+}
+.contenedor-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor-img img{
+    width: 23%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    margin-bottom:25px;
+    border-radius: 15px;
+}
+.footer-color{
+    background-color: black;
+    color: white;
+}
+.footer{
+    width: 90%;
+    padding: 20px;
+    margin:auto;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer li{
+    padding: 3px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(245, 247, 245);
+}
